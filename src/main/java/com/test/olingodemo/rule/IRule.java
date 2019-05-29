@@ -1,6 +1,6 @@
 package com.test.olingodemo.rule;
 
-import org.openl.generated.beans.PaygridData;
+import com.test.olingodemo.vo.PaygridData;
 
 public interface IRule {
     //String getEmpType(String positionSubType, String employeeSubGroup, String jobType);

@@ -17,7 +17,7 @@ public class WebServiceConfig {
     public IRule iRule(){
         EngineFactory<IRule> engineFactory = new RulesEngineFactory<>(
                 getClass().getClassLoader()
-                        .getResource("GetName.xlsx"), IRule.class);
+                        .getResource("Main.xlsx"), IRule.class);
         return engineFactory.newEngineInstance();
     }
 }

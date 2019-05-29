@@ -20,10 +20,4 @@ public class WebServiceConfig {
                         .getResource("GetName.xlsx"), IRule.class);
         return engineFactory.newEngineInstance();
     }
-
-
-
-
-
-
 }

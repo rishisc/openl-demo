@@ -23,8 +23,6 @@ public class TestController {
     @Autowired
     ApplicationContext context;
 
-
-
     @GetMapping("/message")
     public Object message() {
         try{

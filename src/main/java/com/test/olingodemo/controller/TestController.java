@@ -27,7 +27,7 @@ public class TestController {
     public Object message() {
         try{
             IRule iRule = (IRule) context.getBean("iRule");
-            return iRule.getEmpType("xyz", "abc", "Full Time");
+            return iRule.MphasisPayGrid("India", "Annual", "INR", 4, "CS", "91040");
         }catch(Exception e){
 e.printStackTrace();
         }
